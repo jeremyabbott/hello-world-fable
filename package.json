@@ -10,7 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^1.12.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "preact": "^10.5.7"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
   }
 }
