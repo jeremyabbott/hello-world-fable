@@ -125,7 +125,7 @@ let div (classes: string list) (children: ReactElement list) =
     ]
 
 let appTitle =
-    Html.p [
+    Html.h1 [
       prop.className "title"
       prop.text "Elmish To-Do List"
     ]

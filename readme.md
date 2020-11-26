@@ -5,5 +5,5 @@
 ```
 dotnet tool restore
 npm install
-dotnet fable watch src/App --run parcel index.html --hmr-port 1235
+dotnet fable watch src/Client --run parcel watch index.html --hmr-port 1235 -d src/Server/wwwroot
 ```
